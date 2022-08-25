@@ -16,7 +16,155 @@
 </head>
 
 <body>
-
+  <h1>New Address</h1>
+  <p>
+    <img
+      src="images/new_address.jpg"
+      alt="new_address"
+    >
+  </p>
+  <p>
+    <b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.
+  </p>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil eum magni ratione, molestiae expedita dolore
+    accusantium voluptatibus est mollitia in sequi consequatur ex repellendus officia eaque obcaecati. Nam, sapiente
+    tempore.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta in corrupti eius nesciunt pariatur consectetur,
+    aliquid mollitia modi deserunt sapiente praesentium architecto nemo exercitationem minima ex eaque magni iusto enim.
+  </p>
+  <h2>
+    Useful links
+  </h2>
+  <ul>
+    <li>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.google.com/maps</a>
+    </li>
+    <li>
+      <a
+        href="https://www.coduripostale.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >https://www.coduripostale.com</a>
+    </li>
+  </ul>
+  <h2>Address Form</h2>
+  <form>
+    <fieldset>
+      <legend>Address Information:</legend>
+      <label>Title:</label>
+      <label for="male">Mr.</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="female">Ms.</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      ><br>
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="phone">*Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+      <label for="address1">*Address Line 1:</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+      <label for="address2">*Address Line 2:</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+        required
+      >
+      <label for="city">*City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+      <label for="state">*State</label>
+      <select
+        name="state"
+        id="state"
+        required
+      >
+        <option value="detroit">Detroit</option>
+        <option value="california">California</option>
+        <option value="los_angeles">Los Angeles</option>
+      </select>
+      <label for="postcode">*Postcode</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+    </fieldset>
+    <button
+      type="submit"
+      name="submit"
+      id="submit"
+    >Submit</button>
+    <button
+      type="reset"
+      name="reset"
+      id="reset"
+    >Reset</button>
+  </form>
 
   <div
     class="pixeltab-host"

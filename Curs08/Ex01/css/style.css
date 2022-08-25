@@ -1,0 +1,14 @@
+ol a {
+  color:green;
+  text-decoration: line-through blue;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px yellow;
+  font-weight: normal;
+}
+
+p i {
+  color: blue;
+  text-decoration: line-through;
+}

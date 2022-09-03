@@ -29,3 +29,19 @@
 .box-purple {
   transform: translate(100px, 0) rotate(50deg);
 }
+
+.box-red {
+  transform: rotate(-30deg);
+}
+
+.box-green {
+  transform: translate(25px, 100px);
+}
+
+.box-brown {
+  transform: skew(10deg, 10deg) translate(-10px, -5px);
+}
+
+.box-yellow {
+  transform: scale(1.2) rotate(-15deg);
+}

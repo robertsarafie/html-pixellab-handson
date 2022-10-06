@@ -1,36 +1,9 @@
 /* fonts */
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
   font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-      url('../fonts/Roboto-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-      url('../fonts/Roboto-Light.woff') format('woff');
-  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -38,8 +11,26 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-BlackItalic.woff') format('woff');
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
   font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
@@ -47,7 +38,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-MediumItalic.woff') format('woff');
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -55,26 +46,8 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-      url('../fonts/Roboto-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-      url('../fonts/Roboto-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-      url('../fonts/Roboto-Regular.woff') format('woff');
+    url('../fonts/Roboto-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -82,18 +55,45 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-      url('../fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-      url('../fonts/Roboto-Black.woff') format('woff');
-  font-weight: 900;
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -101,7 +101,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
-      url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -109,48 +109,129 @@
 /* fonts */
 
 /* reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* reset */
 
@@ -194,7 +275,7 @@ a {
   border-right: 1px solid #707070;
 }
 
-.header-secondary .header-support li:first-child i[class*='fa-'] {
+.header-secondary .header-support li:first-child i[class*='fa'] {
   color: #ff6b6b;
   font-size: 20px;
   margin-right: 8px;
@@ -285,7 +366,7 @@ a {
 
 .nav-secondary li {
   display: inline;
-  margin: 0 8px;
+  margin: 0 16px;
 }
 
 .nav-secondary a {
@@ -299,10 +380,11 @@ a {
 
 /* footer */
 .footer-primary {
-  background-color: #1B1927;
-  background: #1B1927 url('../images/banners/banner-06.jpg') no-repeat 120% center;
+  background-color: #1b1927;
+  background: #1b1927 url('../images/banners/banner-06.jpg') no-repeat 120%
+    center;
   padding: 50px 50px 35px 50px;
-  /* inheritable/mostenire */
+  /* inheritable */
   font-size: 14px;
   font-weight: 300;
   color: #aeaeae;
@@ -330,11 +412,10 @@ a {
 
 .footer-support li {
   display: inline-block;
-  text-align: center;
 }
 
 .footer-support li:nth-child(2) {
-  margin: 0 40px;
+  margin: 0 16px;
 }
 
 .footer-support i[class*='fa-'] {
@@ -342,11 +423,12 @@ a {
   font-size: 28px;
   display: block;
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .footer-contact {
   display: inline-block;
-  margin-left: 74px;
+  margin-left: 130px;
 }
 
 .footer-contact h1 {
@@ -366,16 +448,16 @@ a {
   display: block;
 }
 
+.footer-contact a[href^='mailto:'] {
+  color: #ff6b6b;
+}
+
 .footer-secondary {
   text-align: center;
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
-  margin: 22px 0;
-}
-
-.footer-contact a[href^='mailto:'] {
-  color: #ff6b6b;
+  margin: 22px;
 }
 
 .footer-secondary p {
@@ -400,11 +482,11 @@ a {
   font-size: 41px;
   line-height: 59px;
   text-align: center;
-  color: #292929;
+  color: #1b1927;
   font-weight: 300;
 }
 
-/* nu vrem mai mult de 4 per selector */
+/* nu vrem mai mult de 4 selectori */
 .content-main > section > header h1 span {
   font-weight: 500;
 }
@@ -415,6 +497,190 @@ a {
   font-weight: 300;
 }
 
+.banner-main {
+  height: 527px;
+  background: #1b1927 url('../images/banners/banner-01.jpg') center center /
+    cover no-repeat;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 96px;
+}
+
+.banner-main .banner-main-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: inherit;
+  padding-left: 75px;
+  position: relative;
+}
+
+.banner-main .banner-main-inner > div {
+  text-align: center;
+}
+
+.banner-main .banner-title {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.banner-main .banner-subtitle {
+  font-size: 42px;
+  font-weight: 300;
+  margin: 16px 0 36px 0;
+}
+
+.banner-main .banner-cta {
+  display: inline-block;
+  text-align: center;
+  padding: 27px 40px;
+  font-weight: 400;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 2px solid #ff6b6b;
+  border-radius: 40px;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.banner-main .banner-cta:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
+.banner-main .banner-copy {
+  position: absolute;
+  bottom: 40px;
+  left: 75px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.home-catalog-preview ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-catalog-preview ul li {
+  width: 27.386541%;
+  /* 350 * 100 / 1278 = 27.386541 */
+}
+
+.home-catalog-preview .product-tile {
+  width: 100%;
+}
+
+.home-catalog-preview .home-catalog-ctas {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.home-catalog-preview .home-catalog-ctas a {
+  text-transform: lowercase;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-catalog-preview .home-catalog-ctas a::after,
+.home-catalog-preview .home-catalog-ctas a::before {
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background-color: #ff6b6b;
+  content: '';
+  transition: width 0.4s linear;
+}
+
+.home-catalog-preview .home-catalog-ctas a:hover::after,
+.home-catalog-preview .home-catalog-ctas a:hover::before {
+  width: 72px;
+}
+
+.product-tile {
+  font-size: 24px;
+  text-align: center;
+}
+
+.product-tile .product-tile-image {
+  position: relative;
+}
+
+.product-tile .product-tile-image a {
+  display: block;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-image .product-tile-badge {
+  color: #ff6b6b;
+  font-weight: 500;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.product-tile .product-tile-title {
+  font-weight: 300;
+  margin: 18px 0 12px 0;
+}
+
+.product-tile .product-tile-title span:first-child {
+  color: #000;
+  font-weight: 500;
+}
+
+.product-tile .product-tile-title :nth-child(2) {
+  font-weight: 500;
+}
+
+.product-tile .product-tile-subtitle {
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.product-tile .product-tile-pricing {
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+.product-tile .product-tile-pricing .product-tile-regular-price {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.product-tile .product-tile-pricing .product-tile-price span {
+  color: #ff6b6b;
+  font-weight: 500;
+}
+
+.product-tile .product-tile-a2c {
+  background: none;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 2px solid #ff6b6b;
+  padding: 12px 24px;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: color 0.4s linear, background-color 0.4s linear;
+  font-weight: 400;
+}
+
+.product-tile .product-tile-a2c:hover {
+  color: #fff;
+  background-color: #ff6b6b;
+}
+
 .home-cta a {
   display: flex;
   flex-direction: column;
@@ -422,7 +688,7 @@ a {
   justify-content: center;
   width: 100%;
   height: 236px;
-  background: #1B1927 url('../images/banners/banner-04.jpg') center center /
+  background: #1b1927 url('../images/banners/banner-04.jpg') center center /
     cover no-repeat;
   color: #fff;
   font-size: 26px;
